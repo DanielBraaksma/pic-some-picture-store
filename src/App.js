@@ -1,7 +1,15 @@
 import React from "react"
+import Header from "./components/Header"
+import Cart from "./pages/Cart"
+import Photos from "./pages/Photos"
 
-export default function App () {
+function App() {
     return (
-        <h1>Test</h1>
+        <div>
+            <Header />
+            <h1>Home Page</h1>
+        </div>
     )
 }
+
+export default App
